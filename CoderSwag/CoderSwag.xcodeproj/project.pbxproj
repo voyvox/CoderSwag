@@ -15,6 +15,8 @@
 		9C2BC8FC215AE9D7006475B5 /* CoderSwagTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2BC8FB215AE9D7006475B5 /* CoderSwagTests.swift */; };
 		9C2BC907215AE9D7006475B5 /* CoderSwagUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2BC906215AE9D7006475B5 /* CoderSwagUITests.swift */; };
 		9C2BC918215AEE51006475B5 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2BC917215AEE51006475B5 /* CategoryCell.swift */; };
+		9CBC70582161C561002C3CFE /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBC70572161C561002C3CFE /* Category.swift */; };
+		9CBC705B2161C6DF002C3CFE /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBC705A2161C6DF002C3CFE /* DataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		9C2BC906215AE9D7006475B5 /* CoderSwagUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoderSwagUITests.swift; sourceTree = "<group>"; };
 		9C2BC908215AE9D7006475B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C2BC917215AEE51006475B5 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		9CBC70572161C561002C3CFE /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		9CBC705A2161C6DF002C3CFE /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 		9C2BC8E5215AE9D6006475B5 /* CoderSwag */ = {
 			isa = PBXGroup;
 			children = (
+				9CBC70592161C6D1002C3CFE /* Services */,
 				9C2BC916215AEDD5006475B5 /* View */,
 				9C2BC915215AEDD0006475B5 /* Model */,
 				9C2BC914215AEDC1006475B5 /* Controller */,
@@ -140,6 +145,7 @@
 		9C2BC915215AEDD0006475B5 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				9CBC70572161C561002C3CFE /* Category.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -150,6 +156,14 @@
 				9C2BC917215AEE51006475B5 /* CategoryCell.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		9CBC70592161C6D1002C3CFE /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				9CBC705A2161C6DF002C3CFE /* DataService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,6 +300,8 @@
 				9C2BC8E9215AE9D6006475B5 /* CategoriesVC.swift in Sources */,
 				9C2BC8E7215AE9D6006475B5 /* AppDelegate.swift in Sources */,
 				9C2BC918215AEE51006475B5 /* CategoryCell.swift in Sources */,
+				9CBC70582161C561002C3CFE /* Category.swift in Sources */,
+				9CBC705B2161C6DF002C3CFE /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
