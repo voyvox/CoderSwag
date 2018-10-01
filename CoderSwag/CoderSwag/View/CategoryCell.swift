@@ -19,3 +19,7 @@ class CategoryCell: UITableViewCell {
     }
 
 }
+
+// views manage themselves, like this is us defining what a cell in the category table will look like and the data it will handle.
+
+// compare this with /how/ the cells behave in a table view, that is more what a view controller will do (CategoriesVC)

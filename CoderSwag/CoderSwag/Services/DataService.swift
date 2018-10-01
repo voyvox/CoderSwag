@@ -17,6 +17,7 @@ class DataService {
         Category(title: "hats", imageName: "hats.png"),
         Category(title: "digital", imageName: "digital.png")
     ]
+    // this wouldn't normally be in here we are simply simulating hitting a server. best practices this data would be in a server not in a services section
     
     func getCategories() -> [Category] {
         return categories
